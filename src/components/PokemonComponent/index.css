@@ -1,0 +1,17 @@
+.pokemon-name{
+    font-size: 32px;
+}
+
+.pokemon{
+    font-size: 15px;
+    border:#4E4F50 solid 1px;
+    background-color: #242526;
+    color: #E4E6EB;
+    border-radius: 4px;
+    padding: 24px 0;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
