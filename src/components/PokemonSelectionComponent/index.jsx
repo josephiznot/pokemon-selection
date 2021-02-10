@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './index.css';
 import { GenericLabel } from '../../datatypes';
 import {ClickComponent} from '../ClickComponent';
 import {GenericLabelComponent} from '../GenericLabelComponent';

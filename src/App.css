@@ -6,21 +6,13 @@
   justify-content: center;
 }
 
-.header{
-  width: 100%;
-  font-size: 40px;
-  color: #E4E6EB;
-  text-align: center;
-  line-height: 60px;
+.App>*:nth-child(2){
+  position: sticky;
+  top: 60px;
 }
 
-.pokemon-label{
-  background: #4E4F50;
-  text-align: center;
-  font-size: 15px;
-  line-height: 36px;
-  width: fit-content;
-  padding: 0 10px;
-  border-radius: 4px;
-  font-weight: 600;
+.App>*:nth-child(1){
+  position: sticky;
+  top: 0;
+  background: #35312C;
 }
