@@ -25,8 +25,8 @@ export const PokemonLabelClickComponent = ({
 export const PokemonSelectionComponent = ({header={}, pokemons={}, pokemonLabelClick={}})=>(
     <React.Fragment>
         <HeaderComponent {...header} />
-        <PokemonsComponent {...pokemons}/>
         <PokemonLabelClickComponent {...pokemonLabelClick}/>
+        <PokemonsComponent {...pokemons}/>
     </React.Fragment>
 );
 

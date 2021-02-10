@@ -1,17 +1,41 @@
-.pokemon-name{
-    font-size: 32px;
-}
-
 .pokemon{
-    font-size: 15px;
+    font-size: 32px;
     border:#4E4F50 solid 1px;
     background-color: #242526;
     color: #E4E6EB;
     border-radius: 4px;
-    padding: 24px 0;
-    width: 250px;
+    padding: 24px 24px;
+    min-width: fit-content;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+
+.pokemon >img{
+    align-self: center;
+    width: 300px;
+}
+
+.pokemon >*:nth-child(2)::before,
+.pokemon >*:nth-child(3)::before,
+.pokemon >*:nth-child(4)::before,
+.pokemon >*:nth-child(5)::before{
+    font-size: 15px;
+}
+
+.pokemon >*:nth-child(2)::before{
+    content: 'Name: ';
+}
+
+.pokemon >*:nth-child(3)::before{
+    content: 'Height: ';
+}
+
+.pokemon >*:nth-child(4)::before{
+    content: 'Weight: ';
+}
+
+.pokemon >*:nth-child(5)::before{
+    content: 'Base Experience: ';
 }

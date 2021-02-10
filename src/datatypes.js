@@ -1,11 +1,12 @@
 import {DEFAULT_FUNCTION} from './constants';
 
 export class Pokemon{
-    constructor(name='', height='', weight='', baseExperience=''){
+    constructor(name='', height='', weight='', baseExperience='', src=''){
         this.name = name;
         this.height = height;
         this.weight = weight;
         this.baseExperience = baseExperience;
+        this.src = src;
     }
 }
 
@@ -36,7 +37,7 @@ export class ReduxState{
     }
 }
 
-export class PokemonLabel{
+export class Label{
     constructor(string=''){
       this.string = string;
     }
@@ -48,12 +49,6 @@ export class PokemonLabel{
     }
   }
   
-  export class Header{
-    constructor(string=''){
-      this.string=string;
-    }
-  }
-
   export class PokemonLabelClick{
     constructor(pokemonLabel={}, handlePokemonClick = DEFAULT_FUNCTION){
       this.pokemonLabel = pokemonLabel;

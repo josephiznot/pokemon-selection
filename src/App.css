@@ -14,11 +14,6 @@
   line-height: 60px;
 }
 
-.pokemons >*{
-  flex-basis: 20%;
-  margin: 30px 30px
-}
-
 .pokemon-label{
   background: #4E4F50;
   text-align: center;
